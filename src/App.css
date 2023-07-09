@@ -164,7 +164,7 @@ text-align: end;
    font-size: 50px;
   }
   .first-set >img{
-    max-inline-size: 50%;
+    max-inline-size: 100%;
     block-size: auto;
     aspect-ratio: 4/4;
     margin: 0 1%;
