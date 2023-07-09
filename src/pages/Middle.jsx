@@ -32,14 +32,16 @@ export default function Middle() {
     transition={{duration:0.75,ease:"easeOut"}}>
        <motion.header className=' d-flex justify-content-between'
        initial={{
-        y:-300
+        y:-100
       }}
       whileInView={{
         y:1
       }}
       transition={{
-        duration:0.2,
-        type:"smooth"
+        duration:1,
+        type:"spring",
+        damping:20
+        
       }}
        >
         <h1>DORA</h1>
