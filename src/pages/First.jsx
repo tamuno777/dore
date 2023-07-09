@@ -13,16 +13,8 @@ export default function First() {
     transition={{duration:1,ease:"easeOut"}}>
       <motion.header
        className='d-flex justify-content-between'
-       initial={{
-        y:-100
-      }}
-      whileInView={{
-        y:1
-      }}
-      transition={{
-        duration:0.7,
-        type: "spring",
-      }}>
+       
+      >
         <h1>DORA</h1>
         <p><strong>EXPLORE</strong></p>
         <h1>STUDIO</h1>
