@@ -62,7 +62,7 @@ export default function Middle() {
            
            draggable
 
-            dragConstraints={{right:0 ,left:-550}}
+            dragConstraints={{right:0 ,left:-150}}
            
             transition={{
               type:"tween",
@@ -72,23 +72,23 @@ export default function Middle() {
               
             }}
           >
-            <motion.img src={photo1}alt="" 
+            <motion.img src={photo1}alt="" className='imgg'
               draggable
             />
-            <motion.img src={photo2}alt="" 
-              draggable
-
-            />
-            <motion.img src={photo3}alt="" 
+            <motion.img src={photo2}alt="" className='imgg'
               draggable
 
             />
-            <motion.img src={photo4}alt="" 
+            <motion.img src={photo3}alt="" className='imgg'
+              draggable
+
+            />
+            <motion.img src={photo4}alt="" className='imgg'
                draggable
 
            
             />
-            <motion.img src={poster}alt="" 
+            <motion.img src={poster}alt="" className='imgg'
                draggable
 
             

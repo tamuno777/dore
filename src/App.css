@@ -50,8 +50,8 @@
  font-size: 80px;
  overflow: hidden;
 }
-.first-set >img{
-  max-inline-size: 50%;
+.imgg{
+  max-inline-size: 140%;
   block-size: auto;
   aspect-ratio: 4/4;
   margin: 0 1%;
@@ -183,8 +183,8 @@ text-align: end;
     overflow: hidden;
    
   }
-  .first-set >img{
-    /* max-inline-size: 120% !important; */
+  .imgg{
+    max-inline-size: 100% !important;
     block-size: auto;
     aspect-ratio: 1/1;
     margin: 0 1%;
