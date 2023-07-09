@@ -30,15 +30,15 @@ export default function Middle() {
      initial={{opacity:0}}
     animate={{opacity:1}}
     transition={{duration:0.75,ease:"easeOut"}}>
-       <motion.header className='pt-3 d-flex justify-content-between'
+       <motion.header className=' d-flex justify-content-between'
        initial={{
-        y:-200
+        y:-300
       }}
       whileInView={{
         y:1
       }}
       transition={{
-        duration:0.5,
+        duration:0.2,
         type:"smooth"
       }}
        >
