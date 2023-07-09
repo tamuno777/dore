@@ -121,25 +121,30 @@ text-align: end;
 @media only screen and (max-width: 600px) {
   .first-container{
     background-color: rgba(100, 148, 237, 0.205);
-      padding: 2% 5%;
-      height: 100vh;
-      width: 100vw;
+      padding: 6% 5% 1% 5%;
+      height: 100%;
+      width: 100%;
+      
+      
   
   }
   .first-container > header{
     align-items: center;
-    padding: 0 0 2% 0;
+    padding: 6% 0 4% 0;
   }
   .first-container > header>h1{
-   font-size: 50px;
+   font-size: 40px;
+   overflow: hidden;
   }
   
   .first-image{
       text-align: center;
-      margin-bottom: 10%;
+      margin-bottom: 20%;
+      margin-top: 20%;
+      align-items: center;
   }
   .first-image >img{
-    max-inline-size: 60%;
+    max-inline-size: 100%;
     block-size: auto;
     aspect-ratio: 4/4;
   }
@@ -149,26 +154,33 @@ text-align: end;
   .second-container{
     background-color:black;
     color: rgb(63, 108, 147);
-      padding: 2% 5%;
-      height: 100vh;
-      width: 100vw;
+
+    padding: 20% 5%;
+    height: 100%;
+    width: 100%;
+     
   
   }
   .second-container > header{
     align-items: center;
     padding: 0 0 2% 0;
+    
+    
   }
  
   
   .second-container > header>h1{
-   font-size: 50px;
+    font-size: 40px;
+    overflow: hidden;
+   
   }
   .first-set >img{
-    max-inline-size: 100%;
+    /* max-inline-size: 120% !important; */
     block-size: auto;
-    aspect-ratio: 4/4;
+    aspect-ratio: 1/1;
     margin: 0 1%;
-    width: 300px;
+    width:100%;
+    height: 50%;
     border-radius: 10px;
   }
   
@@ -191,9 +203,9 @@ text-align: end;
   .last-container{
     background-color:grey;
     color: aliceblue;
-      padding: 2% 5%;
-      height: 100vh;
-      width: 100vw;
+      padding: 20% 5%;
+      height: 100%;
+      width: 100%;
   
      
   }

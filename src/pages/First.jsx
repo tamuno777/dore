@@ -11,14 +11,14 @@ export default function First() {
     initial={{opacity:0}}
     animate={{opacity:1}}
     transition={{duration:1,ease:"easeOut"}}>
-      <motion.header
+      <header
        className='d-flex justify-content-between'
        
       >
         <h1>DORA</h1>
         <p><strong>EXPLORE</strong></p>
         <h1>STUDIO</h1>
-      </motion.header>
+      </header>
 
       <div className='first-image'>
         <motion.img src={poster} alt="" 
@@ -35,16 +35,17 @@ export default function First() {
         }}/>
       </div>
 
-      <div className="socials d-flex justify-content-between">
-        <div className='d-flex flex-start'>
+      <div className="socials py-5  d-flex justify-content-between">
+        <div className='d-flex flex-start pb-5'>
           <h6 className='pe-1'>INSTAGRAM</h6>
           <h6 className='ps-1'>TICKTOK</h6>
         </div>
-        <div>
+        <div className='pb-5'>
           <h6>CONTACT</h6>
         </div>
 
       </div>
+
 
     </motion.div>
   )

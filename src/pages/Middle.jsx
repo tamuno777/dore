@@ -30,7 +30,7 @@ export default function Middle() {
      initial={{opacity:0}}
     animate={{opacity:1}}
     transition={{duration:0.75,ease:"easeOut"}}>
-       <motion.header className='d-flex justify-content-between'
+       <motion.header className='pt-3 d-flex justify-content-between'
        initial={{
         y:-100
       }}
@@ -47,15 +47,15 @@ export default function Middle() {
         <h1>STUDIO</h1>
       </motion.header>
 
-      <div className='scond-text px-5'>
-        <p className='text-center text-white '>
+      <div className='scond-text px-5 '>
+        <p className='text-center text-white py-5'>
           MAKE YOUR BRAND STYLISH AND ON-TREND WITH STUNRNING VISUALS BY BOOKING WITH OUR TALENTED CONTENT CREATORS
         </p>
       </div>
 
       < >
-        <motion.div ref={Carousel} className='carousel py-4' >
-          <motion.div className="first-set inner-carousel py-3 d-flex"
+        <motion.div ref={Carousel} className='carousel my-4 h-100 w-100' >
+          <motion.div className="first-set inner-carousel d-flex"
            drag= "x"
            
            draggable
