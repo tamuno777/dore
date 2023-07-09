@@ -32,14 +32,14 @@ export default function Middle() {
     transition={{duration:0.75,ease:"easeOut"}}>
        <motion.header className='pt-3 d-flex justify-content-between'
        initial={{
-        y:-100
+        y:-200
       }}
       whileInView={{
         y:1
       }}
       transition={{
-        duration:0.7,
-        type: "spring",
+        duration:0.5,
+        type:"smooth"
       }}
        >
         <h1>DORA</h1>

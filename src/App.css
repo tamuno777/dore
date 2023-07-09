@@ -17,6 +17,7 @@
 }
 .first-container > header>h1{
  font-size: 80px;
+ overflow: hidden;
 }
 
 .first-image{
@@ -27,6 +28,10 @@
   max-inline-size: 70%;
   block-size: auto;
   aspect-ratio: 4/4;
+}
+.socials >div>h6{
+  overflow: hidden !important;
+
 }
 
 /* second  */
@@ -43,6 +48,7 @@
 }
 .second-container > header>h1{
  font-size: 80px;
+ overflow: hidden;
 }
 .first-set >img{
   max-inline-size: 50%;
@@ -97,6 +103,9 @@ text-align: end;
 }
 .tt{
   margin: 100px;
+}
+.tt >h1{
+  overflow: hidden;
 }
 .address{
   justify-content: space-between !important;
