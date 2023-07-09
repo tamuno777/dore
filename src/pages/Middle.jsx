@@ -32,7 +32,7 @@ export default function Middle() {
     transition={{duration:0.75,ease:"easeOut"}}>
        <motion.header className='d-flex justify-content-between'
        initial={{
-        y:-200
+        y:-100
       }}
       whileInView={{
         y:1

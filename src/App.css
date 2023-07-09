@@ -122,6 +122,8 @@ text-align: end;
   .first-container{
     background-color: rgba(100, 148, 237, 0.205);
       padding: 2% 5%;
+      height: 100vh;
+      width: 100vw;
   
   }
   .first-container > header{
@@ -148,6 +150,8 @@ text-align: end;
     background-color:black;
     color: rgb(63, 108, 147);
       padding: 2% 5%;
+      height: 100vh;
+      width: 100vw;
   
   }
   .second-container > header{
@@ -188,6 +192,8 @@ text-align: end;
     background-color:grey;
     color: aliceblue;
       padding: 2% 5%;
+      height: 100vh;
+      width: 100vw;
   
      
   }

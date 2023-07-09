@@ -11,32 +11,22 @@ export default function First() {
     initial={{opacity:0}}
     animate={{opacity:1}}
     transition={{duration:1,ease:"easeOut"}}>
-      <header className='d-flex justify-content-between'>
-        <motion.h1
-        initial={{
-          x:-200
-        }}
-        whileInView={{
-          x:-2
-        }}
-        transition={{
-          duration:0.5,
-          type: "spring",
-        }}
-        >DORA</motion.h1>
+      <motion.header
+       className='d-flex justify-content-between'
+       initial={{
+        y:-100
+      }}
+      whileInView={{
+        y:1
+      }}
+      transition={{
+        duration:0.7,
+        type: "spring",
+      }}>
+        <h1>DORA</h1>
         <p><strong>EXPLORE</strong></p>
-        <motion.h1
-        initial={{
-          x:200
-        }}
-        whileInView={{
-          x:0
-        }}
-        transition={{
-          type: "spring",
-          duration:0.5
-        }}>STUDIO</motion.h1>
-      </header>
+        <h1>STUDIO</h1>
+      </motion.header>
 
       <div className='first-image'>
         <motion.img src={poster} alt="" 
