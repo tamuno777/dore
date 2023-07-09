@@ -1,0 +1,235 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0 ;
+  /* overflow-x: hidden; */
+
+}
+
+.first-container{
+  background-color: rgba(100, 148, 237, 0.205);
+    padding: 2% 5%;
+
+}
+.first-container > header{
+  align-items: center;
+  padding: 0 0 2% 0;
+}
+.first-container > header>h1{
+ font-size: 80px;
+}
+
+.first-image{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.first-image >img{
+  max-inline-size: 70%;
+  block-size: auto;
+  aspect-ratio: 4/4;
+}
+
+/* second  */
+
+.second-container{
+  background-color:black;
+  color: rgb(63, 108, 147);
+    padding: 2% 5%;
+
+}
+.second-container > header{
+  align-items: center;
+  padding: 0 0 2% 0;
+}
+.second-container > header>h1{
+ font-size: 80px;
+}
+.first-set >img{
+  max-inline-size: 50%;
+  block-size: auto;
+  aspect-ratio: 4/4;
+  margin: 0 1%;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.carousel{
+  overflow: hidden;
+  cursor: grab;
+  
+    /* width:100%;
+    height:100%; */
+   
+    
+}
+/* .first-set,.second-set,.third-set{
+  padding: 5% 0;
+} */
+
+
+/* third page*/
+
+.last-container{
+  background-color:grey;
+  color: aliceblue;
+    padding: 2% 5%;
+
+   
+}
+.section{
+  justify-content: space-between;
+}
+.first-section{
+  width: 50%;
+  height: 100%;
+}
+
+.second-section{
+  text-align: end;
+  width: 40%;
+}
+.second-section >img{
+max-inline-size: 100%;
+block-size: auto;
+aspect-ratio: 4/4;
+border-radius: 10px;
+text-align: end;
+}
+.tt{
+  margin: 100px;
+}
+.address{
+  justify-content: space-between !important;
+}
+.address >div>p{
+  font-size: small;
+  margin: 0 ;
+  /* line-height: 10px; */
+}
+.con{
+  padding: 0;
+  margin: 0;
+}
+.con>p{
+  font-size: x-small;
+  margin: 0 ;
+  text-align: left;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .first-container{
+    background-color: rgba(100, 148, 237, 0.205);
+      padding: 2% 5%;
+  
+  }
+  .first-container > header{
+    align-items: center;
+    padding: 0 0 2% 0;
+  }
+  .first-container > header>h1{
+   font-size: 50px;
+  }
+  
+  .first-image{
+      text-align: center;
+      margin-bottom: 10%;
+  }
+  .first-image >img{
+    max-inline-size: 60%;
+    block-size: auto;
+    aspect-ratio: 4/4;
+  }
+  
+  /* second  */
+  
+  .second-container{
+    background-color:black;
+    color: rgb(63, 108, 147);
+      padding: 2% 5%;
+  
+  }
+  .second-container > header{
+    align-items: center;
+    padding: 0 0 2% 0;
+  }
+ 
+  
+  .second-container > header>h1{
+   font-size: 50px;
+  }
+  .first-set >img{
+    max-inline-size: 50%;
+    block-size: auto;
+    aspect-ratio: 4/4;
+    margin: 0 1%;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .carousel{
+    overflow: hidden;
+    cursor: grab;
+    
+      /* width:100%;
+      height:100%; */
+     
+      
+  }
+  /* .first-set,.second-set,.third-set{
+    padding: 5% 0;
+  } */
+  
+  
+  /* third page*/
+  
+  .last-container{
+    background-color:grey;
+    color: aliceblue;
+      padding: 2% 5%;
+  
+     
+  }
+  .section{
+    justify-content: space-between;
+  }
+  .first-section{
+    width: 50%;
+    height: 100%;
+  }
+  
+  .second-section{
+    text-align: end;
+    width: 55%;
+
+  }
+  .second-section >img{
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4/4;
+  border-radius: 10px;
+  text-align: end;
+  }
+  .tt{
+    margin: 10px;
+  }
+  .address{
+    justify-content: space-between !important;
+  }
+  .address >div>p{
+    font-size: 7px;
+    margin: 0 ;
+    /* line-height: 10px; */
+  }
+  .con{
+    padding: 0;
+    margin: 0;
+  }
+  .con>p{
+    font-size: 5px;
+    margin: 0 ;
+    text-align: left;
+    
+  }
+}
